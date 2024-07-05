@@ -8,9 +8,8 @@ public class ExtendThreadExample {
 }
 
 class MyThread extends Thread {
-
-  @Override
   public void run() {
-    System.out.println(Thread.currentThread().getName() + "스레드 실행 중...");
+    System.out.println(Thread.currentThread().getName() + " 스레드 실행 중..");
   }
 }
+
