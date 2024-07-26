@@ -12,9 +12,10 @@ public class InterruptedExample3 {
           break;
         }
       }
-      System.out.println("스레드1 인터럽트 상태: " + Thread.currentThread().isInterrupted());
+      System.out.println("스레드 인터럽트 상태: " + Thread.currentThread().isInterrupted());
+      System.out.println("Self Interrupt");
       Thread.currentThread().interrupt();
-      System.out.println("스레드1 인터럽트 상태: " + Thread.currentThread().isInterrupted());
+      System.out.println("스레드 인터럽트 상태: " + Thread.currentThread().isInterrupted());
     });
 
     thread.start();

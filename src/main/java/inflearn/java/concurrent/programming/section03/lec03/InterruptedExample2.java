@@ -1,6 +1,5 @@
 package inflearn.java.concurrent.programming.section03.lec03;
 
-import java.util.concurrent.Executors;
 
 public class InterruptedExample2 {
 

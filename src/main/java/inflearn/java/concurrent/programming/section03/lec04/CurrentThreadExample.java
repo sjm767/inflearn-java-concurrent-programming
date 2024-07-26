@@ -14,7 +14,7 @@ public class CurrentThreadExample {
     @Override
     public void run() {
       System.out.println("현재 스레드: " + Thread.currentThread());
-      System.out.println("현재 스레드 이름(Runnable사용): " + Thread.currentThread().getName());
+      System.out.println("현재 스레드 이름(getName사용): " + Thread.currentThread().getName());
     }
   }
 }
