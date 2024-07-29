@@ -1,5 +1,7 @@
 package inflearn.java.concurrent.programming.section03.lec03;
 
+import java.util.concurrent.CompletableFuture;
+
 public class InterruptedExample1 {
 
   public static void main(String[] args) {
